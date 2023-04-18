@@ -1,0 +1,156 @@
+Description
+This course is structured to give you a theoretical and coding experience with Apache Kafka using SpringBoot. This course is targeted for developers who would like to build enterprise standard  Kafka Client applications using SpringBoot.
+
+If you are looking forward to learning the below-listed things:
+
+Use cases where Kafka fits really well
+
+Internals of Kafka and how it works
+
+Built Enterprise Standard Kafka Client Applications using Producer/Consumer API using Spring Boot
+
+Unit/Integration Tests for the Kafka Client Applications
+
+Then this is the right course for you. This is a pure hands-on oriented course where you will be learning the concepts through code.
+
+By the end of this course, you will have a complete understanding of coding and implementing Kafka Clients using SpringBoot with Producer/Consumer API.
+
+Getting Started with Kafka
+
+In this section, I will give you all a quick introduction to Apache Kafka, terminologies and different client APIs that are part of Kafka
+
+Download and Install Kafka
+
+In this section, we will download the Kafka distribution from the Kafka Website.
+
+Understanding Kafka Components and its Internals - (Theory + Hands-On)
+
+In this section, we will explore the Kafka internals from a theoretical perspective followed by hands-on exploring the Kafka internals.
+
+Learn about the Topics and Partitions in Kafka
+
+Setup a Local Kafka Cluster with Multiple Brokers
+
+Producer/Consumer messages in the Kafka Cluster
+
+Learn about Consumer Offsets and Consumer Groups
+
+Commit Log and Retention Policy
+
+Learn about Kafka Load Distribution and Fault Tolerance and Robustness
+
+Application OverView
+
+This section covers the application that we are going to build as part of this course.
+
+Build SpringBoot Kafka Producer - Hands-On
+
+In this section, we will learn about building a Kafka Producer using Spring Boot.
+
+Build RestAPI through which the events can be posted into the application from the outside world
+
+Explore KafkaTemplate to publish the data into the Kafka Topic
+
+Learn different approaches to produce the message into the Kafka
+
+Learn to publish the Kafka Record using Headers
+
+Integration Testing using JUnit5 - Hands-On
+
+In this section, we will learn about different approaches to writing Integration tests using Embedded Kafka.
+
+Write Integration test cases to interact with the API using JUnit5
+
+Write Integration test cases to interact with Embedded Kafka using JUnit5
+
+Unit Testing using JUnit5- Hands-On
+
+In this section, we will learn about different approaches to writing unit tests Kafka Producer.
+
+Write Unit Tests to the controller layer using @WebMVC annotation and MockMVC
+
+Add the validations to the request payload in the endpoint
+
+Write Custom Error Handler for different response codes
+
+Kafka Producer - Sending Message With Key - Hands-On
+
+In this section, we will learn about sending the record to Kafka Topic with Key.
+
+Kafka Producer - Important Configurations
+
+In this section, we will learn about different key configurations to consider when it comes to reliable message delivery to Kafka
+
+Build SpringBoot Kafka Consumer - Hands-On
+
+In this section, we will learn about building a Kafka Consumer using Spring Boot.
+
+Set up the base consumer project library-events consumer
+
+Learn about different Spring Kafka Terminologies which are necessary to configure a Kafka Consumer
+
+Learn about how to configure a Kafka Consumer using the @KafkListener Annotation
+
+Learn about how "Spring Boot Auto Configuration works behind the scenes for Kafka Consumer"
+
+Consumer Groups and Consumer Offset Management- Hands-On
+
+In this section, we will code and learn about consumer groups and offset management.
+
+Demonstration how Consumer Groups plays a vital role when it comes to scalable message consumption and consumer rebalance
+
+Learn about the Default consumer offset management by Kafka
+
+Learn about how consumer offset can be manually managed from the application
+
+Demonstration of how to achieve scalable message consumption by increasing the concurrency level to greater than 1
+
+Persisting Library Events in DB - Using H2 InMemory DataBase
+
+In this section, we will code and learn about integrating the DB layer into the library-events-consumer using Spring JPA.
+
+Configuring the H2 In-Memory DB
+
+Create LibraryEvent and Book Entity
+
+Build Service Layer to process LibraryEvent - ADD Event Type
+
+Build Service Layer to process LibraryEvent - MODIFY Event Type
+
+Integration Testing using Embedded Kafka - Kafka Consumer
+
+In this section, we will code and learn to write the Integration tests for the Kafka Consumer.
+
+Configure Embedded Kafka for Integration Tests
+
+Write the Integration test for posting a "NEW" LibraryEvent
+
+Write the Integration test for posting an "UPDATE" LibraryEvent
+
+Integration Tests for Real Databases using TestContainers
+
+Error Handling, Retry and Recovery - Kafka Consumers
+
+In this section, we will learn about the different error handling techniques that are available for Kafka Consumer.
+
+Custom Error Handler
+
+Retry in Kafka Consumer
+
+Retry SpecificExceptions using Custom RetryPolicy
+
+Recovery in Kafka Consumer
+
+Handling Recovery in Kafka Consumer
+
+Error Handling, Retry/Recovery - Kafka Producer
+
+Error Handling in Kafka Producer
+
+Retry in Kafka Producer - Broker Not Available
+
+Retry in Kafka Producer - Min.in.sync.replicas
+
+Retain/Recover Failed Records in Kafka Producer
+
+By the end of this you will have a complete understand and knowledge of building enterprise standard Kafka Consumers and Producers using Spring Boot with the Unit and Integration tests using EmbeddedKafka.
